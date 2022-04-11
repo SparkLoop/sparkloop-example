@@ -1,0 +1,14 @@
+{
+  "name": "sparkloop-example",
+  "version": "1.0.0",
+  "main": "index.js",
+  "author": "Bilal Budhani",
+  "license": "MIT",
+  "dependencies": {
+    "esbuild": "^0.14.34",
+    "sparkloop": "^0.1.4"
+  },
+  "scripts": {
+    "dev": "node esbuild.config.js"
+  }
+}

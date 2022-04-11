@@ -1,0 +1,41 @@
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Sparkloop</title>
+  <script src="js/main.js"></script>
+  <link rel="stylesheet" href="https://unpkg.com/papercss@1.8.3/dist/paper.min.css">
+</head>
+
+<body>
+  <div class="container">
+    <h1>Sparkloop Example App</h1>
+    <p>This repository contains example code on how use sparkloop package in your app</p>
+
+    <div class="alert alert-success" style="visibility: hidden;">
+      SparkLoop is working! 🎉
+    </div>
+    <div class="paper">
+      <h3>Example form</h3>
+      <form>
+        <div class="form-group">
+          <label for="email">Email address</label>
+          <input type="email" id="email" aria-describedby="emailHelp" placeholder="Enter email" />
+        </div>
+        <input type="submit" value="Submit" />
+      </form>
+    </div>
+  </div>
+
+  <script>
+    var form = document.querySelector('form');
+    form.addEventListener('submit', function (e) {
+      e.preventDefault();
+      console.log('form was submitted');
+    })
+  </script>
+</body>
+
+</html>
