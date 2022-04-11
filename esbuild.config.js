@@ -9,7 +9,7 @@ esbuild.serve({
   outdir: "public/js",
   bundle: true,
   define: {
-    SETTINGS: JSON.stringify({campaign_id: "MFadc06a49fb"})
+    SETTINGS: JSON.stringify({campaign_id: "REPLACE_CAMPAIGN_ID"})
   }
 })
 .then(server => {
