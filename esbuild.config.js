@@ -1,6 +1,5 @@
 const esbuild = require("esbuild");
 
-
 esbuild.serve({
   servedir: "public",
 }, {

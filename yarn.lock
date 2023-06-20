@@ -128,7 +128,7 @@ esbuild@^0.14.34:
     esbuild-windows-64 "0.14.34"
     esbuild-windows-arm64 "0.14.34"
 
-sparkloop@^0.1.4:
-  version "0.1.4"
-  resolved "https://registry.yarnpkg.com/sparkloop/-/sparkloop-0.1.4.tgz#d731cfe343b4d41638bae5053bca4408f35b2a1b"
-  integrity sha512-7TmhX2sIjoRCXrvzwEJUUhXlGjLWDqqgyuctP0dFKFdXh3JXr2NnuzkyLO/10fZe3v3k5FbjSRz3sPd9jQYSpg==
+sparkloop@^1.0.5:
+  version "1.0.5"
+  resolved "https://registry.yarnpkg.com/sparkloop/-/sparkloop-1.0.5.tgz#957d6dab3bffbe1d178faf427e246d53af5faaf8"
+  integrity sha512-QuEAH6NEg32zgsqHeYFl/9A/efZqLpgjohHB6kLoTM3Zthui4cFXsiWEEZC/eFqyC00IGs2dQ6JSjz8z0bRGDw==

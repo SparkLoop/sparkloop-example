@@ -1,6 +1,5 @@
 import sparloop from "sparkloop";
 
-
 // Initialize the sparkloop
 const settings = SETTINGS
 

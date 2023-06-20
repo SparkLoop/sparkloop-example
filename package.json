@@ -6,7 +6,7 @@
   "license": "MIT",
   "dependencies": {
     "esbuild": "^0.14.34",
-    "sparkloop": "^0.1.4"
+    "sparkloop": "^1.0.5"
   },
   "scripts": {
     "dev": "node esbuild.config.js"
